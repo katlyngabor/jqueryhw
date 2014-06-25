@@ -34,6 +34,10 @@ input{
   margin:0;
 }
 
+input.input{
+  margin-top:30px;
+}
+
 
 .keydown-practice{
   border-radius:100px;
@@ -50,11 +54,9 @@ input{
 }
 
 .click-practice{
-  float:right;
   background-color:white;
   font-size:12px;
 }
-
 
 
 .replace-practice{
@@ -84,4 +86,13 @@ img{
 
 .input{
   margin:50px;
+}
+
+.do-not-press{
+  border-radius:100px;
+  background-color:#3c1f61;
+  height:100px;
+  width:100px;
+  float:right;  
+  color:white;
 }

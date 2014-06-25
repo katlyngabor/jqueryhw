@@ -70,10 +70,21 @@ $("input").keydown(function(){
 
 
 $('.replace-practice').mouseenter(function(){
-	$(this).animate().html('Sure? It might be scary!');
+	$(this).animate().html('You sure?<br>It might be scary!');
 	$('.replace-practice').on('click',function(){
 	$('<div class="img-container"><img src="images/heart-hi.png"><br>A heart! How cute!</div>').replaceAll('.replace-practice');
  });
+});
+
+$(".do-not-press").click(function(){
+  $("input").toggle();
+  $(".keydown-practice").toggle();
+  $(".replace-practice").toggle();
+  $("img").toggle();
+  $("header").toggle();
+  $(".mouseenter-practice").toggle();
+  $(".click-practice").toggle();
+  $(".img-container").toggle();
 });
 
 
