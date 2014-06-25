@@ -81,10 +81,12 @@ $(".do-not-press").click(function(){
   $(".keydown-practice").toggle();
   $(".replace-practice").toggle();
   $("img").toggle();
-  $("header").toggle();
   $(".mouseenter-practice").toggle();
   $(".click-practice").toggle();
   $(".img-container").toggle();
+  $('header').toggle();
+
+
 });
 
 
